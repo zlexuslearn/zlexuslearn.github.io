@@ -64,7 +64,7 @@
 }
 
 .footer_vk:hover {
-  content: url(/img/soc/footer_vk_a.png);
+  content: url(../img/soc/footer_vk_a.png);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: 0.3s;
@@ -72,7 +72,7 @@
 }
 
 .footer_fb:hover {
-  content: url(/img/soc/footer_fb_a.png);
+  content: url(../img/soc/footer_fb_a.png);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: 0.3s;
@@ -80,7 +80,7 @@
 }
 
 .footer_in:hover {
-  content: url(/img/soc/footer_in_a.png);
+  content: url(../img/soc/footer_in_a.png);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: 0.3s;
@@ -88,7 +88,7 @@
 }
 
 .footer_you:hover {
-  content: url(/img/soc/footer_yt_a.png);
+  content: url(../img/soc/footer_yt_a.png);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: 0.3s;
@@ -196,7 +196,7 @@ body .main {
   display: -ms-flexbox;
   display: flex;
   padding: 10px 0px 0px 0px;
-  background: url(/img/block1/main_slide.jpg);
+  background: url(../img/block1/main_slide.jpg);
   background-size: contain;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -359,21 +359,21 @@ body .top-nav_callback a {
 
 /* Header соц.сети */
 #hvk:hover {
-  content: url(/img/block1/soc/vk_a.png);
+  content: url(../img/block1/soc/vk_a.png);
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 #hfb:hover {
-  content: url(/img/block1/soc/fb_a.png);
+  content: url(../img/block1/soc/fb_a.png);
 }
 
 #hin:hover {
-  content: url(/img/block1/soc/instagram_a.png);
+  content: url(../img/block1/soc/instagram_a.png);
 }
 
 #hyo:hover {
-  content: url(/img/block1/soc/youtube_a.png);
+  content: url(../img/block1/soc/youtube_a.png);
 }
 #hyo .top-phone {
   font-size: 25px;
@@ -449,7 +449,7 @@ body .top-nav_callback a {
   display: -ms-flexbox;
   display: flex;
   padding: 0px 100px;
-  background-image: url(/img/block2/block2_bg.png);
+  background-image: url(../img/block2/block2_bg.png);
 }
 .block2 div {
   display: -webkit-box;
@@ -486,7 +486,7 @@ body .top-nav_callback a {
   font-size: 3.8rem;
   line-height: 2.27rem;
   color: #7a5c3e;
-  background-image: url(/img/block2/orange-line-1.png);
+  background-image: url(../img/block2/orange-line-1.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   max-height: 65px;
@@ -545,7 +545,7 @@ body .top-nav_callback a {
   display: flex;
   padding: 0rem 10rem;
   min-height: 23.4rem;
-  background-image: url(/img/block3/block3_bg.png);
+  background-image: url(../img/block3/block3_bg.png);
   background-repeat: no-repeat;
   text-align: center;
   font-family: Adventure;
@@ -574,7 +574,7 @@ body .top-nav_callback a {
   display: flex;
   padding: 0px 100px;
   min-height: 95rem;
-  background-image: url(/img/block4/block4_bg.png);
+  background-image: url(../img/block4/block4_bg.png);
   background-repeat: no-repeat;
   padding-bottom: 8rem;
 }
@@ -585,7 +585,7 @@ body .top-nav_callback a {
   font-size: 3.8rem;
   line-height: 2.15rem;
   color: #7a5c3e;
-  background-image: url(/img/block2/orange-line-1.png);
+  background-image: url(../img/block2/orange-line-1.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   max-height: 65px;
@@ -629,7 +629,7 @@ body .top-nav_callback a {
   display: flex;
   padding: 0px 100px;
   min-height: 67rem;
-  background-image: url(/img/block5/block5_bg.png);
+  background-image: url(../img/block5/block5_bg.png);
   background-repeat: no-repeat;
 }
 .block5 h3 {
@@ -638,7 +638,7 @@ body .top-nav_callback a {
   font-size: 3.8rem;
   line-height: 25.4px;
   color: #fff;
-  background-image: url(/img/block2/orange-line-1.png);
+  background-image: url(../img/block2/orange-line-1.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   max-height: 65px;
@@ -732,7 +732,7 @@ body .top-nav_callback a {
   font-size: 3.8rem;
   line-height: 2.31rem;
   color: #7a5c3e;
-  background-image: url(/img/block2/orange-line-1.png);
+  background-image: url(../img/block2/orange-line-1.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   max-height: 65px;
@@ -799,7 +799,7 @@ body .top-nav_callback a {
   display: flex;
   padding: 0px 100px;
   min-height: 71.3rem;
-  background-image: url(/img/block7/block7_bg.png);
+  background-image: url(../img/block7/block7_bg.png);
   background-repeat: no-repeat;
 }
 .block7 button {
@@ -828,7 +828,7 @@ body .top-nav_callback a {
   font-size: 3.8rem;
   line-height: 2.4rem;
   color: #fff;
-  background-image: url(/img/block2/orange-line-1.png);
+  background-image: url(../img/block2/orange-line-1.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-position-x: 110rem;
@@ -872,22 +872,22 @@ body .top-nav_callback a {
 }
 .block7 form li:first-child {
   padding-top: 1rem;
-  background-image: url(/img/block7/name.png);
+  background-image: url(../img/block7/name.png);
   background-repeat: no-repeat;
   background-position: 0.5rem 1rem;
 }
 .block7 form li:nth-child(2) {
-  background-image: url(/img/block7/city.png);
+  background-image: url(../img/block7/city.png);
   background-repeat: no-repeat;
   background-position: 1.5rem 4rem;
 }
 .block7 form li:nth-child(3) {
-  background-image: url(/img/block7/phone.png);
+  background-image: url(../img/block7/phone.png);
   background-repeat: no-repeat;
   background-position: 1rem 4rem;
 }
 .block7 form li:nth-child(4) {
-  background-image: url(/img/block7/email.png);
+  background-image: url(../img/block7/email.png);
   background-repeat: no-repeat;
   background-position: 0.5rem 3rem;
 }
@@ -937,7 +937,7 @@ body .top-nav_callback a {
   font-size: 3.8rem;
   line-height: 20.4px;
   color: #7a5c3e;
-  background-image: url(/img/block2/orange-line-1.png);
+  background-image: url(../img/block2/orange-line-1.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   max-height: 65px;
@@ -964,7 +964,7 @@ body .top-nav_callback a {
   display: flex;
   padding: 0px 100px;
   min-height: 55.6rem;
-  background-image: url(/img/block9/block9_bg.png);
+  background-image: url(../img/block9/block9_bg.png);
   background-repeat: no-repeat;
 }
 .block9 h3 {
@@ -973,7 +973,7 @@ body .top-nav_callback a {
   font-size: 3.8rem;
   line-height: 25.4px;
   color: #7a5c3e;
-  background-image: url(/img/block2/orange-line-1.png);
+  background-image: url(../img/block2/orange-line-1.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   max-height: 65px;
