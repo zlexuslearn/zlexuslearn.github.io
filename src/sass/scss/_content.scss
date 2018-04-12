@@ -1,0 +1,117 @@
+.block2{
+    h3{
+        margin-top: 8rem;
+    }
+}
+
+.block4{
+    min-height: 80rem;
+    background-repeat: repeat;
+}
+
+.block5{
+    text-align: center;
+    .etaps{
+        justify-content: space-around;
+    }
+    .etap{
+        margin-right: 6rem;
+        padding-left: 0;
+        align-items: center;
+        width: 25%;
+        position: relative;
+        img{
+            position: relative;
+            /*left: 9.5rem;*/
+            width: 204px;
+            height: 230px;
+        }
+        .arrow {
+            position: relative;
+            margin: 50px auto;
+        }
+        .arrow:before,
+            .arrow:after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 40px solid transparent;
+            border-right: 0;
+        }
+        .arrow {
+            width: 135px;
+            height: 3px;
+            position: absolute;
+            background: #fff;
+            top: 60px;
+            right: -70px;
+
+        }
+        .arrow:after {
+            top: -5px;
+            right: -25px;
+            border-left-color: #fff;
+            border-width: 6px 0 6px 25px;
+        }
+        &:last-child{
+            align-items: center;
+            margin-right: 0;
+            img{
+                left: 0;
+            }
+            .arrow{
+                display: none;
+            }
+        }
+    }
+    button{
+        margin-left: 0;
+    }
+}
+
+.block6{
+    text-align: center;
+    .facts{
+        text-align: left;
+    }
+    button{
+        margin-left: 0;
+    }
+}
+
+.block8{
+    padding: 0 25px;
+    .flex-container{
+        height: 56vh;
+    }
+    .padbot0{
+        p{
+            margin-bottom: 0;
+        }   
+    }
+    .to-catalog{
+        padding-top: 0;
+        padding-bottom: 0;
+        a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 2rem;
+        }
+    }
+}
+
+.block9{
+    min-height: 52rem;
+    h3{
+        margin-top: 8rem;
+    }
+    .uslugi{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .usluga{
+        padding-right: 3rem;
+    }
+}

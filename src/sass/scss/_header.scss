@@ -1,0 +1,52 @@
+body{
+    .main{
+        background-size: cover;
+    }
+}
+.main{
+    .wrap-main{
+        max-width: 830px;
+        margin-top: 90px;
+        margin-left: -5%;
+        h1, p{
+            text-align: left;
+        }
+        p{
+            padding-left: 120px;
+            text-indent: -30px;
+        }
+    }
+    h1{
+        color: #fff;
+        text-shadow: 2px 2px 7px rgba(0,0,0,.35);
+        text-transform: uppercase;
+    }
+    p{
+        /*display: flex;*/
+        position: relative;
+        margin-top: 30px;
+        font-family: 'Adventure';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 4.3rem;
+        color: #fff;
+        text-shadow: 2px 3px 4px rgba(0,0,0,.75);
+        &:before{
+            content: '';
+            width: 90px;
+            height: 90px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-image: url(../img/block1/amchair.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 90%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px){
+    
+}
+
