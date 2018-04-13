@@ -7,8 +7,8 @@ $(document).ready(function(){
 });
 
 // Город
- $("#city").click(function() { 
-    $(".city").fadeToggle("100");
+ $(".drop-down").click(function() { 
+    $(".list").fadeToggle("100");
     /* $(".submenu").animate({top: '80px'}, 100); */
 }); 
 
