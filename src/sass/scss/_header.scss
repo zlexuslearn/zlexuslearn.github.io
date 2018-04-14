@@ -28,7 +28,7 @@ body{
     }   
     .office-phone{
         display: inline-block;
-        padding-right: 1rem;
+        padding-right: 2rem;
     }
     .office-active{
         display: inline-block;
@@ -128,4 +128,65 @@ body{
 @media only screen and (min-width: 1280px) and (max-width: 1440px){
 
 }
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
 
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+@media only screen and (min-width: 425px) and (max-width: 768px){
+
+}
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    body{
+        .top-nav{
+            padding: 10px 0;
+            .logo-wrap{
+                display: flex;
+                position: fixed;
+                z-index: 2;
+                background-color: #fff;
+                .hamburger{
+                    padding-left: 3rem;
+                }
+            }
+            .logo{
+                width: 80%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .shedule{
+                font-size: 2rem;
+                padding-top: 2.5rem;
+                padding-bottom: 2.5rem;
+                text-align: center;
+            }
+            .contacts-wrap{
+                display: block;
+            }
+            .offices-block{
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+            .callback{
+                padding-top: 1rem;
+                text-align: center;
+            }
+            .office-active{
+                margin-right: 0;
+            }
+            .office-phone{
+                padding-right: 0;
+            }
+            .social{
+                text-align: right;
+            }
+        }
+        .desktop-menu{
+            display: none;
+        }
+    }
+}

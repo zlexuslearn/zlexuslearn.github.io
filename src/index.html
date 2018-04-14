@@ -36,12 +36,22 @@
                 <div class="top-nav">
                     <div class="row justify-content-between align-items-center">
 
-                        <div class="col-xl-4">
-                            <div class="logo"><img src="img/logo_3.png" alt="SCS Furniture"></div>
+                        <div class="col-sm-12 col-xl-4 ">
+                            <div class="logo-wrap">
+                                <div class="logo"><img src="img/logo_3.png" alt="SCS Furniture"></div>
+                                <div>
+                                    <button class="hamburger hamburger--collapse menu-btn" type="button">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                        <span class="hamburger-label"></span>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-xl-4">
+                        <div class="col-sm-12 col-xl-4">
                             <div class="shedule">
-                                <span class="days">Ежедневно</span>
+                                <span class="days">Ежедневно</span> 
                                 <span class="time">с 09:00 до 18:00</span>
                             </div>
                             <!--                            <ul class="top-nav_time">
@@ -49,13 +59,13 @@
                                                             <li>с 09:00 до 18:00</li>
                                                         </ul>-->
                         </div>
-                        <div class="col-xl-4">
+                        <div class="col-sm-12 col-xl-4">
                             <div class="contacts-wrap"> 
                                 <div class="offices-block">
                                     <div class="office-active">
                                         <span class="drop-down"><sub><i class="fas fa-angle-down"></i></sub>Москва</span>
                                     </div>
-                                    <div class="office-phone"><span class="office-phone">8 800 555 46 33</span></div>
+                                    <div class="office-phone"><span>8 800 555 46 33</span></div>
                                     <div class="list">
                                         <ul class="offices-list">
                                             <li>Россия</li>
@@ -76,26 +86,10 @@
                                     </ul>
                                 </div>
                             </div>
-
-                            <!--                            <ul class="top-nav_geo">
-                                                            <li><a href="#" id="city"><sub><i class="fas fa-angle-down"></i></sub> Россия</a><ul class="city">
-                                                                    <li>Китай</li>
-                                                                </ul></li>
-                                                            <li class="top-phone">8-800-555-46-33</li>
-                            
-                                                            <li class="top-nav_soc"><a href="#"><img src="img/block1/soc/vk.png" alt="" id="hvk"></a></li>
-                                                            <li class="top-nav_soc"><a href="#"><img src="img/block1/soc/fb.png" alt="" id="hfb"></a></li>
-                                                            <li class="top-nav_soc"><a href="#"><img src="img/block1/soc/instagram.png" alt="" id="hin"></a></li>
-                                                            <li class="top-nav_soc"><a href="#"><img src="img/block1/soc/youtube.png" alt="" id="hyo"></a></li>
-                            
-                                                        </ul>
-                                                        <ul class="top-nav_callback">
-                                                            <li><a href="#callback" class="modal-popup">Заказать обратный звонок</a></li>
-                                                        </ul>-->
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-flex-between align-items-center">
+                <div class="row justify-content-flex-between align-items-center desktop-menu">
                     <div class="col-xl-auto">
 
                         <ul class="top-navbar">
@@ -117,7 +111,34 @@
                     <div class="col-xl-auto des">
                         <ul class="top-navbar">
                             <li><a href="">дизайнерам</a></li>
-                        </ul></div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-menu">
+                    <!-- Pushy Menu -->
+                    <nav class="pushy pushy-left">
+                        <div class="pushy-content">
+                            <ul>
+                                <!-- Submenu -->
+                                <li class="pushy-submenu">
+                                    <button>О компании</button>
+                                    <ul>
+                                        <li class="pushy-link"><a href="#">О нас</a></li>
+                                        <li class="pushy-link"><a href="#">Команда</a></li>
+                                        <li class="pushy-link"><a href="#">Блог</a></li>
+                                    </ul>
+                                </li>
+                                <li class="pushy-link"><a href="#">услуги</a></li>
+                                <li class="pushy-link"><a href="#">цены</a></li>
+                                <li class="pushy-link"><a href="#">каталоги</a></li>
+                                <li class="pushy-link"><a href="#">контакты</a></li>
+                                <li class="pushy-link"><a href="#">дизайнерам</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <!-- Site Overlay -->
+                    <div class="site-overlay"></div>
                 </div>
                 <div class="row justify-content-flex-between align-items-center">
                     <div class="col-xl-12 main">
@@ -524,6 +545,8 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.slim.min.js"><\/script>')</script>
+        <script src="js/libs.min.js"></script>
+        <script src="js/main.min.js"></script>
         <script src="js/custom.js"></script>
         <script src="js/magnific-popup.js"></script>
         <script src="js/functions.js"></script>
