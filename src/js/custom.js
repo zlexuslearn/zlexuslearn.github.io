@@ -24,26 +24,27 @@ $(window).scroll(function () {
     } else {
         $backToTop.fadeOut();
     }
-    if ($(this).scrollTop() > 15) {
-        $('.logo-wrap').css({
-            "position": "fixed",
-            "margin-left": "-15px",
-            "padding-left": "15px",
-            "padding-right": "15px",
-            "margin-top": "-10px",
-            "padding-top": "10px"
-        })
-    } else {
-       $('.logo-wrap').css({
-            "position": "static",
-            "margin-left": "0",
-            "padding-left": "0",
-            "padding-right": "0",
-            "margin-top": "-0",
-            "padding-top": "0"
-        }) 
+    if ($(window).width() <= 768) {
+        if ($(this).scrollTop() > 15) {
+            $('.logo-wrap').css({
+                "position": "fixed",
+                "margin-left": "-15px",
+                "padding-left": "15px",
+                "padding-right": "15px",
+                "margin-top": "-10px",
+                "padding-top": "10px"
+            })
+        } else {
+            $('.logo-wrap').css({
+                "position": "static",
+                "margin-left": "0",
+                "padding-left": "0",
+                "padding-right": "0",
+                "margin-top": "-0",
+                "padding-top": "0"
+            })
+        }
     }
-
 });
 
 // scroll body to 0px on click

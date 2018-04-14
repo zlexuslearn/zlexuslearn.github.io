@@ -139,6 +139,9 @@ body{
 }
 @media only screen and (min-width: 320px) and (max-width: 425px){
     body{
+        .main{
+            min-height: auto;
+        }
         .top-nav{
             padding: 10px 0;
             .logo-wrap{
@@ -166,6 +169,7 @@ body{
             }
             .contacts-wrap{
                 display: block;
+                text-align: center;
             }
             .offices-block{
                 text-align: center;
@@ -177,6 +181,9 @@ body{
             }
             .office-active{
                 margin-right: 0;
+                .drop-down{
+                    cursor: default; 
+                }
             }
             .office-phone{
                 padding-right: 0;
@@ -185,8 +192,53 @@ body{
                 text-align: right;
             }
         }
-        .desktop-menu{
-            display: none;
+    }
+    .drop-down{
+        sub{
+            display: none;   
         }
+    }
+    .mobile-menu{
+        ul{
+            list-style: none;
+            padding-left: 0px;
+            li{
+                ul{
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    .desktop-menu{
+        display: none;
+    }
+    .main{
+        .wrap-main{
+            max-width: 100%;
+            margin-top: 2rem;
+            margin-left: 0;
+            h1{
+                transform: none;
+                opacity: 1;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                text-shadow: 2px 2px 7px rgba(0,0,0,1);
+            }
+            p{
+                transform: none;
+                opacity: 1;
+                font-size: 2rem;
+                text-indent: 0;
+                text-shadow: 2px 2px 7px rgba(0,0,0,1);
+            }
+        }
+        p{
+            &:before{
+                display: none;
+            }
+        }
+    }
+    .pushy{
+        background-color: #8f7658;
     }
 }

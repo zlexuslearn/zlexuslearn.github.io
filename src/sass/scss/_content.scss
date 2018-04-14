@@ -128,5 +128,115 @@
 
 }
 @media only screen and (min-width: 320px) and (max-width: 425px){
-    
+    .block2{
+        padding: 0;
+        text-align: center;
+        h3{
+            margin-top: 2rem;
+            max-height: 100%;
+            padding-bottom: 0;
+            /*background: none;*/
+        }
+        .img-block{
+            display: none;
+        }
+        .block2-text{
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 1.6rem;;
+            text-align: justify;
+        }
+        .preimushestva{
+            flex-direction: column;
+            margin-top: 0;
+            .pr{
+                padding-left: 0;
+                margin: 0 auto;
+            }
+        }
+    }
+    .block2-info{
+        padding-bottom: 2rem;
+    }
+    .block3{
+        padding: 0;
+        min-height: 100%;
+        background-size: cover;
+        div{
+            padding-bottom: 0;
+        }
+    }
+    .block3-text{
+        font-size: 1.8rem;
+        text-align: justify;
+    }
+    .block4{
+        padding: 0 0 2rem 0;
+        h3{
+            margin-top: 2rem;
+            padding-bottom: 0;
+            max-height: 100%;
+        }
+        .questions{
+            .question{
+                transform: none;
+                opacity: 1;
+            }
+            h4{
+                padding-left: 3px;
+            }
+            td{
+                display: none;
+                &.text{
+                    display: table;
+                    padding: 0;
+                    border: none;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    .block5{
+        padding: 0;
+        background: #9A8975;
+        height: auto;
+        h3{
+            margin-top: 2rem;
+            padding-bottom: 0;
+            max-height: 100%;
+        }
+        .etaps{
+            flex-direction: column;
+        }
+        .etap{
+            width: 100%;
+            margin: 0;
+            /*margin-top: 1rem;*/
+            margin-bottom: 2rem;
+            flex-direction: row;
+            border-bottom: 1px solid #fff;
+            img{
+                width: 80px;
+                height: 80px;
+                order: 1;
+                margin-bottom: 1rem;
+            }
+            p{
+                font-size: 1.8rem;
+                order: 2;
+                margin-top: 0;
+            }
+            .arrow{
+                display: none;
+            }
+        }
+        button{
+            width: 100%;
+            padding: 1rem 0;
+        }
+    }
+    .block6{
+        padding: 0;
+        height: auto;
+    }
 }
