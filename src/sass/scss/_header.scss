@@ -82,6 +82,9 @@ body{
         }
     }
 }
+.mobile-burger{
+    display: none;
+}
 .main{
     .wrap-main{
         max-width: 830px;
@@ -192,6 +195,9 @@ body{
                 text-align: right;
             }
         }
+    }
+    .mobile-burger{
+        display: inline-block;
     }
     .drop-down{
         sub{

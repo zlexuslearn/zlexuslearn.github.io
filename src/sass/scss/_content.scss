@@ -131,12 +131,6 @@
     .block2{
         padding: 0;
         text-align: center;
-        h3{
-            margin-top: 2rem;
-            max-height: 100%;
-            padding-bottom: 0;
-            /*background: none;*/
-        }
         .img-block{
             display: none;
         }
@@ -172,11 +166,6 @@
     }
     .block4{
         padding: 0 0 2rem 0;
-        h3{
-            margin-top: 2rem;
-            padding-bottom: 0;
-            max-height: 100%;
-        }
         .questions{
             .question{
                 transform: none;
@@ -200,11 +189,6 @@
         padding: 0;
         background: #9A8975;
         height: auto;
-        h3{
-            margin-top: 2rem;
-            padding-bottom: 0;
-            max-height: 100%;
-        }
         .etaps{
             flex-direction: column;
         }
@@ -219,12 +203,12 @@
                 width: 80px;
                 height: 80px;
                 order: 1;
-                margin-bottom: 1rem;
+                margin-bottom: 2rem;
             }
             p{
                 font-size: 1.8rem;
                 order: 2;
-                margin-top: 0;
+                margin: auto;
             }
             .arrow{
                 display: none;
@@ -238,5 +222,15 @@
     .block6{
         padding: 0;
         height: auto;
+        .fact{
+            margin-bottom: 2rem;
+            .read-more{
+                border-bottom: 1px solid #71553a;
+            }
+        }
+        button{
+            width: 100%;
+            padding: 1rem 0;   
+        }
     }
 }
