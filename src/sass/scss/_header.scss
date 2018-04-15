@@ -83,7 +83,9 @@ body{
     }
 }
 .mobile-burger{
-    display: none;
+    .hamburger{
+        display: none;
+    }
 }
 .main{
     .wrap-main{
