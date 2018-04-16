@@ -1,9 +1,8 @@
 /*@import '../libs/bootstrap/scss/bootstrap-reboot.scss';
 
 @import '../libs/owl.carousel/src/scss/owl.carousel.scss';*/
-
+@import "variables.scss";
 @import '../../libs/bootstrap/scss/bootstrap-grid.scss';
-/*@import '../../libs/revealator/fm.revealator.jquery.css';*/
 @import '../../libs/magnific-popup/src/css/main.scss';
 @import '../../libs/pushy/scss/pushy.scss';
 @import 'hamburgers';
@@ -13,7 +12,7 @@
 @import "revealator_from_css.scss";
 @import "slider.scss";
 @import "fonts.scss";
-@import "variables.scss";
+
 @import "mixins.scss";
 @import "helpers.scss";
 

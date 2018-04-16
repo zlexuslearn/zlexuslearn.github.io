@@ -9,7 +9,54 @@
         margin-top: 5.3rem;   
     }
     .footer-social{
-        
+
     }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    footer{
+        &.footer{
+            padding: 2rem 1.5rem;
+            img{
+                width: 100%;
+            }
+            p{
+                text-align: justify;
+                &.footer-right_policy{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    .guide{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .footer-tours{
+        text-align: left;
+    }
+    .footer{
+        .footer-right_policy{
+            margin-top: 1.8rem;
+        }
+    }
+    .guide{
+        margin-top: 0;
+    }
+    .footer-social{
+        justify-content: flex-start;
+    }
+    .footer-right{
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px){
+
 }
 
