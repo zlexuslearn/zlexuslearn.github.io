@@ -118,6 +118,18 @@
         display: none;   
     }
 }
+@media only screen and (max-width: 1440px){
+    .block9{
+        .mobile-div{
+            display: block;
+        }
+        table{
+            &.uslugi{
+                display: none;
+            }
+        }
+    }
+}
 
 @media only screen and (min-width: 320px) and (max-width: 1023px){
     .block2{
@@ -294,14 +306,6 @@
     }
     .block9{
         padding: 0;
-        table{
-            &.uslugi{
-                display: none;
-            }
-        }
-        .mobile-div{
-            display: block;
-        }
         .service{
             display: flex;
             flex-direction: row;
@@ -387,22 +391,6 @@
         .flex-container{
             height: 50vh;
         }
-        .flex-slide{
-            .flex-title{
-                margin-bottom: 2rem;
-                font-size: 1.4rem;
-                top: 8rem;
-            }
-            .flex-about{
-                font-size: 1.6rem;
-                padding-bottom: 2rem;
-                &.to-catalog{
-                    a{
-                        font-size: 1.4rem;
-                    }
-                }
-            }
-        }
     }
     .block9{
         .services{
@@ -415,12 +403,172 @@
         }
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .fact{
+        img{
+            margin: 0 auto;
+        }
+    }
+}
+@media only screen and (min-width: 1200px){
+    .fact{
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px){
+    .block2{
+        .preimushestva{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .pr{
+                padding-left: 0;
+            }
+        }
+    }
+    .block7{
+        form{
+            max-width: 65%;
+            margin: 0 auto;
+            ul{
+                &.flex-outer{
+                    width: 100%;
+                    padding-left: 0;
+                }
+                li{
+                    width: 100%;
+                    input{
+                        min-width: 100%;
+                    }
+                }
+            }
+        }
+        button{
+            margin: 0 auto;
+        }
+    }
+    .block9{
+        .services{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .service{
+                display: flex;
+                min-width: 40%;
+                align-items: center;
+                margin-bottom: 3rem;
+                div{
+                    padding-right: 1rem;   
+                }
+            }
+        }
+    }
+}
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .block2{
+        padding: 0;
+        .img-block{
+            align-items: center;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    .block2-text{
+        padding-left: 0;
+    }
+    .block5{
+        min-height: auto;
+        background-size: cover;
+        .etaps{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 3rem;
+        }
+        .etap{
+            margin-right: 0;
+            flex-direction: row;
+            min-width: 45%;
+            img{
+                width: 10rem;
+                height: 10rem;
+            }
+            .arrow{
+                display: none;
+            }
+            p{
+                margin: 2.5rem auto;
+            }
+        }
+        button{
+            margin-bottom: 3rem;
+        }
+    }
+    .fact{
+        margin-bottom: 3rem;
+    }
+    .block8{
+        .flex-slide{
+            min-width: 60px;
+        }
+    }
 
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1440px){
+@media only screen and (min-width: 1280px) and (max-width: 1600px){
+    .block2{
+        .img-block{
+            img{
+                width: 100%;
+            }
+        }
+        .preimushestva{
+            .pr{
+                min-width: 50%;
+            }
+        }
+    }
+    .block2-text{
+        text-align: justify;
+    }
+    .block5{
+        .etap{
+            img{
+                width: 130px;
 
+            }
+            .arrow{
+                width: 100px;
+            }
+        }
+    }
 }
-
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .block8{
+        .flex-slide{
+            .flex-title{
+                margin-bottom: 2rem;
+                font-size: 1.4rem;
+                top: 1rem;
+            }
+            .flex-about{
+                font-size: 1.6rem;
+                padding-bottom: 2rem;
+                &.to-catalog{
+                    a{
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
