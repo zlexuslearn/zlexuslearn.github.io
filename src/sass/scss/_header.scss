@@ -199,7 +199,9 @@ body{
         }
     }
     .mobile-burger{
-        display: inline-block;
+        .hamburger{
+            display: inline-block;;
+        }
     }
     .drop-down{
         sub{
