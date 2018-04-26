@@ -129,6 +129,59 @@ body{
         }
     }
 }
+
+.blog-header, .about-header{
+    background-color: #a39990;
+    position: relative;
+    .breadcrumbs-block{
+        position: absolute;
+        margin: 0 auto;
+        top: 0;
+        bottom: 0;
+        width: 30%;   
+    }
+    .inner-breadcrumbs{
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    ul{
+
+        li{
+            display: inline-block;
+            a{
+                font-family: "PT Sans";
+                font-size: 16px;
+                color: #fff;
+                text-decoration: none;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }            
+            &:nth-child(odd), &:nth-child(even){
+                &:before{
+                    content: '/ ';
+                    color: #fff;
+                }
+            }
+            &:first-child{
+                &:before{
+                    content: none;
+                }
+            }
+        }
+    }
+    .page-title{
+        margin: 0 auto;
+        h1{
+            font-family: Adventure;
+            font-size: 47px;
+            color: #fff;
+            margin: 0;
+            line-height: 100px;
+        }
+    }
+}
 @media only screen and (min-width: 320px) and (max-width: 575px){
     body{
         .top-nav{
@@ -176,6 +229,33 @@ body{
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1200px){
+    .blog-header, .about-header{
+        display: flex;
+        .breadcrumbs-block{
+            display: none;
+            position: static;
+            width: 100%;
+            font-size: 1.6rem;
+            order: 2;
+        }
+        .inner-breadcrumbs{
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding: 0 0.5rem;
+                margin: 1.6rem auto;
+                li{
+                    margin: 0 0.5rem 0.5rem;
+                }
+            }
+        }
+        .page-title{
+            h1{
+                font-size: 2.6rem;
+            }
+        }
+    }
     body{
         .main{
             min-height: auto;
