@@ -136,8 +136,7 @@
                         <div class="inner-breadcrumbs">
                             <ul>
                                 <li><a href="#">Главная</a></li>
-                                <li><a href="index.html">О Компании</a></li>
-                                <li><a href="#">Наш блог</a></li>
+                                <li><a href="index.html">Услуги</a></li>
                             </ul>
                         </div>
                     </div>
@@ -355,6 +354,27 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div id="callback" class="zoom-anim-dialog mfp-hide white-block">
+                    <form id="callbackForm" action="#" class="form__form callback-form">
+                        <fieldset class="form__fields form__hide-success">
+                            <div class="control-group">
+                                <input name="name" class="inputbox" type="text" placeholder="Ваше имя*" required />
+                            </div>
+                            <div class="control-group">
+                                <input name="phone" class="inputbox" type="number" placeholder="Ваш телефон*" required />
+                            </div>
+                            <div class="control-group">
+                                <div id="recaptcha2"></div>
+                            </div>
+                            <input type="hidden" name="go" value="5">
+                            <input type="hidden" name="submitCallback" value="callback">
+                            <div class="btn-block">
+                                <button type="submit" class="btn-submit btn btn-s40 btn-empty btn-grey btn-w100">Отправить
+                                </button>
+                            </div>
+                        </fieldset>
+                    </form>
                 </div>
             </div>
             <!-- /.block2 -->
