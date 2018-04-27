@@ -6,6 +6,22 @@ body{
         background-size: cover;
     }
 }
+.logo{
+    .logo-words{
+        font-family: "PT Sans";
+        color: #555555;
+        font-size: 3.7rem;
+        text-transform: uppercase;
+        span{
+            color: #fd8402;
+        }
+    }
+    .slogan{
+        font-weight: bold;
+        text-transform: lowercase;
+        padding-left: 2.5rem;
+    }
+}
 .top-nav{
     .shedule{
         font-size: 2.5rem;
@@ -190,14 +206,32 @@ body{
             }
         }
     }
+    .logo{
+        .logo-words{
+            font-size: 1.7rem;
+        }
+        .slogan{
+            padding-left: 11px;
+            font-size: 0.8rem;
+        }
+    }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 1023px){
+@media only screen and (min-width: 575px) and (max-width: 1023px){
     body{
         .top-nav{
             .logo{
                 width: 30%;
             }
+        }
+    }
+    .logo{
+        .logo-words{
+            font-size: 2rem;
+        }
+        .slogan{
+            padding-left: 14px;
+            font-size: 1.1rem;
         }
     }
 }
@@ -427,6 +461,15 @@ body{
                     padding-right: 4rem;
                 }
             }
+        }
+    }
+    .logo{
+        .logo-words{
+            font-size: 2.7rem;
+        }
+        .slogan{
+            padding-left: 17px;
+            font-size: 1.7rem;
         }
     }
 }
