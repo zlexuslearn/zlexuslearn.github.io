@@ -1,9 +1,11 @@
-/*@import '../libs/bootstrap/scss/bootstrap-reboot.scss';
+/*@import '../../libs/bootstrap/scss/bootstrap-reboot.scss';*/
 
-@import '../libs/owl.carousel/src/scss/owl.carousel.scss';*/
+/*@import '../libs/owl.carousel/src/scss/owl.carousel.scss';*/
 @import "variables.scss";
 @import '../../libs/bootstrap/scss/bootstrap-grid.scss';
 @import '../../libs/pushy/scss/pushy.scss';
+/*@import '../../libs/timelinejs/dist/css/timeline.scss';*/
+/*@import '../../libs/jQuery-Timelinr-master/css/style.scss';*/ 
 @import 'hamburgers';
 @import '../../libs/css-hamburgers/_sass/hamburgers/hamburgers.scss';
 
@@ -19,6 +21,7 @@
 @import "header";
 @import "content";
 @import "blog";
+@import "about";
 @import "services";
 @import "modals";
 @import "footer";
