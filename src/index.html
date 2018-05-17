@@ -8,43 +8,11 @@
         <link rel="icon" href="./favicon.ico">
         <title>SCS Furniture</title> 
         <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/magnific-popup.css">    
+        <link rel="stylesheet" href="css/magnific-popup.css">
         <link rel="stylesheet" href="css/styles.min.css">
     </head>
 
     <body>
-        <!--        <div class="row history-timeline">
-                    <div id="timeline">
-                        <ul id="dates">
-                            <li><a href="#2008">2008</a></li>
-                            <li><a href="#2009">2009</a></li>
-                            <li><a href="#2010">2010</a></li>
-                            <li><a href="#2011">2011</a></li>
-                        </ul>
-                        <ul id="issues">
-                            <li id="2008">
-                                <p>Lorem ipsum.</p>
-                            </li>
-                            <li id="2009">
-                                <p>Lorem ipsum.</p>
-                            </li>
-                            <li id="2010">
-                                <p>Lorem ipsum.</p>
-                            </li>
-                            <li id="2011">
-                                <p>Lorem ipsum.</p>
-                            </li>
-                        </ul>
-                        <div id="grad_left"></div>
-                        <div id="grad_right"></div>
-                        <a href="#" id="next">+</a>
-                        <a href="#" id="prev">-</a>
-                    </div>
-                </div>-->
-
-
-
-
         <div class="wrapper">
             <div id="back-to-top">
                 <i class="fa fa-chevron-up"></i>
@@ -310,9 +278,30 @@
                 </div>
                 <div class="row justify-content-flex-between align-items-center  our-works-block block4">
                     <h3>Примеры реализованных проектов </h3>
-                    <div class="slider-our-works">
-                        
+                    <div class="cascade-slider_container" id="cascade-slider">
+                        <div class="cascade-slider_slides">
+                            <div class="cascade-slider_item">
+                              
+                                <img src="img/images-timeline/11.svg" alt="">
+                            </div>
+                            <div class="cascade-slider_item">
+                                
+                               <img src="img/images-timeline/12.svg" alt="">
+                            </div>
+                            <div class="cascade-slider_item">
+                  
+                                <img src="img/images-timeline/2_2.svg" alt="">
+                            </div>
+                            <div class="cascade-slider_item">
+                                
+                               <img src="img/images-timeline/12.svg" alt="">
+                            </div>
+                        </div>
+
+                        <span class="cascade-slider_arrow cascade-slider_arrow-left" data-action="prev">Prev</span>
+                        <span class="cascade-slider_arrow cascade-slider_arrow-right" data-action="next">Next</span>
                     </div>
+
                 </div>
                 <div id="callback" class="zoom-anim-dialog mfp-hide white-block">
                     <form id="callbackForm" action="#" class="form__form callback-form">
@@ -398,15 +387,16 @@
             <!-- /.containter-fluid -->
         </footer>
         <script src="js/libs.min.js"></script>
+        <script src="js/cascade-slider.js"></script>
         <script src="js/main.min.js"></script>
         <script>
             jQuery(document).ready(function () {
-                
+
                 // ======= Form init =======
                 $('#feedbackForm').sendForm({
                     mailUrl: "/form-submit/submit.php"
                 });
-                
+
                 // ======= Init magnific popup =======
                 $('.modal-popup').magnificPopup({
                     type: 'inline',
@@ -419,7 +409,7 @@
                     removalDelay: 300,
                     mainClass: 'mfp-top-up'
                 });
-                
+
                 // ===== Init modal form ====
                 $('#callbackForm').sendForm({
                     successTitle: "Ваша заявка принята!",
@@ -428,7 +418,7 @@
                     autoCloseDelay: 3000
                             //mailUrl: "/wp-content/demos/simple-ajax-form/form-submit/submit.php"
                 });
-                
+
             }); // end ready
         </script>
     </body>

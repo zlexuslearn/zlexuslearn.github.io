@@ -353,3 +353,17 @@ $(function () {
     });
 });
 
+
+//  $(".owl-carousel").owlCarousel({
+//    nav: true,
+//    
+//  });
+$('#cascade-slider').cascadeSlider({
+  itemClass: 'cascade-slider_item',
+  arrowClass: 'cascade-slider_arrow'
+});
+
+
+
+
+
