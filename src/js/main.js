@@ -358,6 +358,18 @@ $(function () {
 //    nav: true,
 //    
 //  });
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+      items: 0,
+      autoWidth: true,
+      loop: true,
+      center: true,
+      autoWidth: true,
+      dots: false,
+      nav: true
+  });
+});
+
 $('#cascade-slider').cascadeSlider({
   itemClass: 'cascade-slider_item',
   arrowClass: 'cascade-slider_arrow'
