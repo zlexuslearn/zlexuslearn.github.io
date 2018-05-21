@@ -360,13 +360,13 @@ $(function () {
 //  });
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-      items: 0,
+      items: 1,
       autoWidth: true,
       loop: true,
       center: true,
-      autoWidth: true,
       dots: false,
-      nav: true
+      nav: true,
+      margin: 60
   });
 });
 
