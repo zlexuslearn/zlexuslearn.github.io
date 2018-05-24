@@ -359,14 +359,20 @@ $(function () {
 //    
 //  });
 $(document).ready(function(){
+    $dots_displ = false;
+    $marg_owl = 60;
+    if (jQuery(window).width() <= 425) {
+        $dots_displ = true;
+        $marg_owl = 0;
+    }
   $(".owl-carousel").owlCarousel({
       items: 1,
       autoWidth: true,
       loop: true,
       center: true,
-      dots: false,
+      dots: $dots_displ,
       nav: true,
-      margin: 60
+      margin: $marg_owl
   });
 });
 
